@@ -67,17 +67,31 @@ export const Home = () => {
                   <div className="ring three"></div>
                   </div>
                      <a
-  href="https://drive.google.com/uc?export=download&id=1844xOaM6_5Z0gSWVBe4DE_RhzBsCEiGZ"
+  href="https://drive.google.com/file/d/1844xOaM6_5Z0gSWVBe4DE_RhzBsCEiGZ/view?usp=drive_link"
   target="_blank"
   rel="noopener noreferrer"
 >
-  <div id="button_d" class="ac_btn btn">
-    <img src="path/to/your/download-icon.png" alt="Download Resume" class="download-icon" />
+  <div id="button_h" class="ac_btn btn">
+    My Resume
     <div class="ring one"></div>
     <div class="ring two"></div>
     <div class="ring three"></div>
   </div>
 </a>
+
+<a
+  href="https://drive.google.com/uc?export=download&id=1844xOaM6_5Z0gSWVBe4DE_RhzBsCEiGZ"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <div id="button_d" class="ac_btn btn">
+    Download Resume
+    <div class="ring one"></div>
+    <div class="ring two"></div>
+    <div class="ring three"></div>
+  </div>
+</a>
+
 </a>
                 </div>
               </div>
