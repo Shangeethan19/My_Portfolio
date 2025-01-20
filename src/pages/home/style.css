@@ -300,3 +300,10 @@ section {
   display: inline-block;
   margin-right: 10px;
 }
+
+/* Style the download icon */
+.download-icon {
+  width: 30px; /* Adjust size of the icon */
+  height: 30px;
+  object-fit: cover;
+}
