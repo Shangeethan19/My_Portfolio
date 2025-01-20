@@ -233,7 +233,68 @@ section {
     filter: saturate(0.5);
 }
 
-
-
-
-
+/* Style for the buttons */
+.ac_btn {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  /* Style for the rings effect */
+  .ac_btn .ring {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    animation: rings 1.5s ease-out infinite;
+  }
+  
+  .ac_btn .ring.one {
+    width: 40px;
+    height: 40px;
+    top: -10px;
+    left: -10px;
+    animation-delay: 0.5s;
+  }
+  
+  .ac_btn .ring.two {
+    width: 60px;
+    height: 60px;
+    top: -20px;
+    left: -20px;
+    animation-delay: 1s;
+  }
+  
+  .ac_btn .ring.three {
+    width: 80px;
+    height: 80px;
+    top: -30px;
+    left: -30px;
+    animation-delay: 1.5s;
+  }
+  
+  /* Animation for the rings */
+  @keyframes rings {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+  
+  /* Style the buttons next to each other */
+  #button_h, #button_d {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
